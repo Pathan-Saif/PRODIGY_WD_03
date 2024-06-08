@@ -50,3 +50,6 @@ button {
     font-size: 1.2em;
     color: white;
 }
+.winning-cell {
+    background-color: rgb(13, 45, 39);
+}
