@@ -19,7 +19,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    gap: 20px;
     margin: 20px auto;
 }
 
@@ -53,4 +53,6 @@ button {
 .winning-cell {
     background-color: rgb(13, 45, 39);
     color: #24bdff;
+    transform: rotate(360deg);
+    transition: 2s;
 }
